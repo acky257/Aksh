@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+#container {
+    padding: 10px;
+    height: 450px;
+    width: 400px;
+    text-align: center;
+    background-color: crimson;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-inline-end-color: black;
+}
+
+#img {
+    background-color: black;
+}
+
+#heading {
+    background-color: black;
+    color: aliceblue;
+}
+
+#paragraph {
+    color: aliceblue;
+    gap: 10px;
+}
+
+#container button {
+    height: 30px;
+    width: 90px;
+    font-size: 18px;
+}

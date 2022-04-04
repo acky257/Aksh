@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    padding: 10px;
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+#h3 {
+    height: 50px;
+    background-color: calc(yellow white);
+    font-size: 40px;
+    margin-left: 380px;
+    margin-bottom: 30px;
+}
+
+#box1 {
+    background-color: azure;
+    padding: 5px;
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    gap: 8px;
+}
+
+#box1 img {
+    height: 289px;
+    width: 489px;
+    border: 1px solid black;
+}
+
+#box1 button {
+    height: 30px;
+    width: 80px;
+    margin-left: 399px;
+    margin-top: 80px;
+    box-shadow: 1px 1px 20px rgb(170, 169, 169);
+}
+
+#head {
+    height: 70px;
+    margin-left: 170px;
+    font-style: italic;
+}
+
+#ph {
+    height: 70px;
+    width: 1000px;
+    margin-left: 280px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#box2 {
+    background-color: white;
+    height: 260px;
+    width: 1035px;
+    gap: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+#box2 img {
+    border: 1px solid black;
+    padding: 0px;
+    height: 249px;
+    width: 334px;
+}
+
+#box3 {
+    background-color: white;
+    height: 450px;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+    border: 1px solid rgb(44, 44, 44);
+}
+
+#box3 button {
+    box-shadow: 1px 1px 20px rgb(86, 84, 84);
+    height: 30px;
+    width: 70px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+#box3 img {
+    padding: 10px;
+    height: 187px;
+    width: 300px;
+}
+
+#box3 #goa,
+#andaman,
+#delhi,
+#assam {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background-color: azure;
+}

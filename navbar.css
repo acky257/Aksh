@@ -1,0 +1,13 @@
+* {
+    padding: 2px;
+}
+
+#navbar {
+    background-color: rgb(199, 243, 243);
+    height: 7rem;
+    width: 75rem;
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    flex-wrap: wrap;
+}
