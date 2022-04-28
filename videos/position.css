@@ -1,0 +1,52 @@
+* {
+    background-color: darkgray;
+    margin: 20px;
+}
+
+.container {
+    position: relative;
+    padding: 1rem;
+    height: auto;
+    width: auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    border: 1px solid black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2rem;
+}
+
+.container div {
+    height: 50px;
+    width: 70px;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.first {
+    position: static;
+}
+
+.second {
+    position: absolute;
+    top: 1rem;
+    left: 5rem;
+    background-color: blanchedalmond;
+}
+
+.third {
+    position: sticky;
+    top: 20rem;
+    right: 20rem;
+    background-color: aqua;
+}
+
+.fourth {
+    position: fixed;
+    top: 2rem;
+    left: 20rem;
+    background-color: olive;
+}

@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+#main {
+    margin-top: -2rem;
+    height: auto;
+    width: auto;
+    background-image: url(https://wallpaperaccess.com/full/436964.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar {
+    background-color: rgba(248, 241, 231, 0.9);
+    margin-top: 3%;
+    height: 3.7rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    cursor: grab;
+}
+
+#navbar button {
+    height: 1.5rem;
+    width: 4rem;
+    border-radius: 6px;
+    box-shadow: 1px 2px 3px rgb(55, 55, 55);
+    cursor: pointer;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#srchbox {
+    padding: 0.5rem 01rem;
+    margin-top: 12rem;
+    background-size: 16rem;
+    width: fit-content;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 5rem;
+    background-color: rgba(245, 245, 245, 0.505);
+    border: 1px solid rgb(6, 6, 6);
+    cursor: pointer;
+}
+
+#srchbox button {
+    width: 4rem;
+    height: 1.5rem;
+    box-shadow: 1px 1px 2px rgb(62, 62, 62);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.inputbox input {
+    height: 2rem;
+    width: 80%;
+    border-style: none;
+    background: transparent;
+    outline-style: none;
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-solid {
+    margin-left: 5%;
+    margin-top: 5%;
+    color: black;
+}
+
+.datebox {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    font-size: 15px;
+}
+
+.from {
+    padding-inline: 0.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 13px;
+    border-radius: 8px;
+}
+
+.input,
+.call,
+.calendar-picker {
+    padding-inline: 10px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.input input {
+    width: 5rem;
+    font-size: 10px;
+    background-color: rgba(255, 255, 255, 0.461);
+    border-radius: 1rem;
+}
+
+.to {
+    padding-inline: 0.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    border-radius: 8px;
+}
+
+.datebox button {
+    border-radius: 30%;
+    height: 2rem;
+    width: 3rem;
+    border-style: none;
+}
+
+#box {
+    overflow-x: scroll;
+    width: 70rem;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.card {
+    font-style: italic;
+    align-items: center;
+    color: rgba(240, 248, 255, 0.752);
+    padding: 5px;
+    height: 24rem;
+    width: 18rem;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+
+#box img {
+    border-radius: 10px;
+    height: 10rem;
+    width: 17.8rem;
+    border: 1px solid black;
+}
+
+#box button {
+    float: right;
+    box-shadow: 1px 2px 3px rgb(65, 65, 65);
+    border-radius: 7px;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.box h3 {
+    color: beige;
+    font-style: oblique;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+#box2 img {
+    border-radius: 20px;
+    height: 17rem;
+    width: 25rem;
+    border: 1px solid whitesmoke;
+}
+
+#box2 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-left: 2rem;
+    margin-top: 15%;
+    width: 75rem;
+    gap: 1rem;
+}

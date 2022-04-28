@@ -1,0 +1,151 @@
+    * {
+        margin: 0%;
+    }
+    
+    #main {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/989/317/202/kratos-video-games-god-of-war-god-of-war-iii-wallpaper-preview.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    #banner h2 {
+        height: 2rem;
+        overflow: hidden;
+        left: 1rem;
+        top: 1rem;
+        color: rgb(143, 237, 76);
+        position: absolute;
+        animation-name: slider;
+        animation-duration: 10s;
+        animation-fill-mode: both;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes slider {
+        100% {
+            left: 100%
+        }
+    }
+    
+    #navbar {
+        padding-left: 1rem;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.343);
+        display: flex;
+        flex-direction: row;
+        gap: 7rem;
+        align-items: center;
+        color: aliceblue;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0.4rem;
+    }
+    
+    #logo {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+    #logo img {
+        height: 4rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    #search {
+        background-color: antiquewhite;
+        height: 1.5rem;
+        width: 75%;
+        border-radius: 10px;
+    }
+    
+    #srch {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        align-items: center;
+        width: 20rem;
+    }
+    
+    #icon {
+        font-size: 2rem;
+        color: whitesmoke;
+    }
+    
+    #menu ul {
+        font-size: 18px;
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        align-items: center;
+    }
+    
+    #logo {
+        margin-top: 2rem;
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .fa-solid {
+        font-size: 2rem;
+        color: rgb(178, 233, 156);
+    }
+    
+    #button {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+    #button button {
+        border-radius: 1rem;
+        box-shadow: 1px 3px 8px rgb(129, 128, 128);
+    }
+    
+    #page {
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem
+    }
+    
+    #page img {
+        border: 1px solid whitesmoke;
+        border-radius: 1rem;
+        height: 14rem;
+        width: 20rem;
+    }
+    
+    .hed {
+        color: rgb(143, 237, 76);
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    #gow1 {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+    
+    #god {
+        font-size: 1.5rem;
+        font-style: italic;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    #god button {
+        border-radius: 1rem;
+        height: 1.5rem;
+        width: 5rem;
+        box-shadow: 1px 2px 3px rgb(66, 66, 66);
+    }
